@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FlickrLab</string>
+
+    <!-- Bottom bar -->
+    <string name="bottom_bar_home">Home</string>
+    <string name="bottom_bar_bookmark">Bookmarks</string>
+
+    <!-- Search screen -->
+    <string name="search_query_hint">Ex: Football</string>
+
+    <!-- Error screen -->
+    <string name="error_title">Hmm something went wrong</string>
+    <string name="error_sub_title">Please, check your internet connection and try it again</string>
+    <string name="error_retry_button">Retry</string>
+
+    <!-- Empty screen -->
+    <string name="empty_screen_title">Photos not found</string>
+    <string name="empty_screen_subtitle">Please modify the search and try it again</string>
+
+</resources>
