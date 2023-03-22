@@ -30,7 +30,7 @@ val baseDIModule = module {
 
     //region repositories
 
-    factory<FlickrPhotoRepository> { FlickrPhotoRepositoryImpl(get()) }
+    factory<FlickrPhotoRepository> { FlickrPhotoRepositoryImpl(get(), get()) }
 
     //endregion
 

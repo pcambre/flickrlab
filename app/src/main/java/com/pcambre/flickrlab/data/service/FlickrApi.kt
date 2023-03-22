@@ -20,8 +20,8 @@ interface FlickrApi {
     suspend fun search(@Query(TEXT) query: String,
                        //Search only pictures
                        @Query(CONTENT_TYPE) contentType: String = "1",
-                       @Query(PER_PAGE) perPage: String,
-                       @Query(PAGE) page: String = "1",
+                       @Query(PER_PAGE) perPage: Int,
+                       @Query(PAGE) page: Int = 1,
                        @Query(EXTRAS) extras: String = "url_sq,url_o",
     ): Response<SearchPhotoResponseDTO>
 }
