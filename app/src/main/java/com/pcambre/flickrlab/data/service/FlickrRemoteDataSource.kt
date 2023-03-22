@@ -6,7 +6,7 @@ import kotlinx.coroutines.flow.flow
 
 class FlickrRemoteDataSource(private val api: FlickrApi) {
 
-    fun search(query: String, perPage: String): Flow<NetworkResult<SearchPhotoResponseDTO>> = flow {
+    fun search(query: String, perPage: Int): Flow<NetworkResult<SearchPhotoResponseDTO>> = flow {
         emit(handleApiResponse { api.search(query = query, perPage = perPage) })
     }
 

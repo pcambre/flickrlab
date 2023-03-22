@@ -7,6 +7,9 @@
 
     <!-- Search screen -->
     <string name="search_query_hint">Ex: Football</string>
+    <string name="search_query_error_cell">Error when try to load this page, please try it again</string>
+    <string name="search_query_empty_title">No result for current search</string>
+    <string name="search_query_empty_subtitle">Please adjust the search and try it again</string>
 
     <!-- Error screen -->
     <string name="error_title">Hmm something went wrong</string>
